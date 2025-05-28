@@ -20,10 +20,10 @@ export class HeaderComponent {
     { label: 'Home', path: '/' },
     { label: 'About', path: '/about' },
     { label: 'Contact', path: '/contact' },
+    { label: 'Login', path: '/login' },
+    { label: 'Register', path: '/register' }
   ];
   authLinks = [
-    { label: 'Login', path: '/login', type: 'link' },
-    { label: 'Register', path: '/register', type: 'button' }
   ];
 }
 
